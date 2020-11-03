@@ -1,0 +1,289 @@
+body{
+	background:#D7D7D7;
+	font-size:14px;
+	font-family:Arial, helvetica, sans-serif;
+}
+a{
+	color:#37b0c9;
+	cursor:pointer;
+	text-decoration:underline;
+}
+a:hover{
+	color: #C00000;
+}
+p{
+	font-size:1em;
+	
+}
+h1{
+	font-size:2.5em;
+	font-weight:bold;
+}
+h2{
+	font-size:26px;
+	color: #003B4A;
+	margin: 10px 0 20px;
+}
+h3{
+	font-size:16px;
+	color: #A38400;
+}
+
+h3.h3inOL
+{
+	margin-left: -40px;
+}
+
+div.main-wrapper{
+	width:1000px;
+	height:100%;
+	background:#FFFFFF;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+div.masthead {
+	background: transparent;
+	width: 100%;
+}
+div.content-wrapper{
+}
+
+img.wsbBanner {
+	width: 100%;
+}
+
+div.title{
+	background-color:#FFFFFF;
+	color:#000000;
+	width:100%;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-bottom:2px solid #C20430;
+}
+div.content-wrapper{
+	min-height:600px;
+	width:100%;
+	vertical-align:top;
+}
+div.right-col{
+	width:725px;
+	padding:20px;
+	height:100%;
+	display:inline-block;
+	vertical-align:top;
+}
+div.left-col{
+	border-right:2px solid #BCBCBC;
+	width:175px;
+	padding:15px;
+	height:100%;
+	display:inline-block;
+	min-height:600px;
+}
+div.sideNav ul{
+	list-style-type:none;
+	margin-left:-27px;
+}
+div.sideNav ul li ul{
+	list-style-type:none;
+	margin-left:-20px;
+}
+div.sideNav
+{
+    width: 180px;
+    overflow-x: hidden;
+}
+div.sideNav a{
+	color:#54565B;
+	text-decoration:none;
+}
+div.sideNav a:hover
+{
+    text-decoration: none !important;
+}
+
+div.sideNav div.sidenavHeader a
+{
+	color: #493F38;
+	font-family: Arial;
+	font-size: 0.813em;
+	line-height: 1.5em;
+	font-weight: bold;
+	left: 5px;
+	position: relative;
+}
+
+div.sideNav a:visited
+{
+    color: #493F38;
+}
+
+div.sideNav div.sideNavBar
+{
+    background-image: url('http://bus.wisc.edu/_images/template/global/sideNavBar2.png');
+    height: 2px;
+    width: 200px;
+}
+
+div.sideNav ul.sidenav
+{
+    font-family: Arial;
+    font-size:	0.875em;
+    line-height: 1.563em;
+    font-weight: bold;
+	display:block;
+}
+div.sideNav ul.sidenav ul
+{
+	display:none;
+}
+
+div.sideNav ul.sidenav a
+{
+    color: #493F38;
+    text-decoration: none;
+    margin: 1px 1px 1px 1px;
+    padding: 2px 0px 2px 2px;
+    display: inline-block;
+    width: 100%;
+}
+div.sideNav ul.sidenav a:hover{
+	background-color:#9F998F;
+	color:#fff;
+}
+div.sideNav ul.sidenav a.btnToggle
+{
+    display: block;
+    background-image: url('http://bus.wisc.edu/_images/template/global/navDot.gif');
+    background-repeat: no-repeat;
+    background-position: 0 8px;
+    cursor: pointer;
+    height: 20px;
+    left: -13px;
+    position: absolute;
+    top: 0px;
+    width: 7px;
+}
+div.sideNav ul.sidenav a:hover.btnToggle
+{
+    background-color:#fff;
+    cursor: pointer;
+}
+div.sideNav ul.sidenav a.btnToggle
+{
+    display: block;
+    background-image: url('http://bus.wisc.edu/_images/template/global/navDot.gif');
+    background-repeat: no-repeat;
+    background-position: 0 8px;
+    cursor: pointer;
+    height: 20px;
+    left: -13px;
+    position: absolute;
+    top: 0px;
+    width: 7px;
+}
+
+div.sideNav ul.sidenav a:hover.btnToggle
+{
+    background-color:#fff;
+    cursor: pointer;
+}
+
+div.sideNav ul.sidenav li
+{
+    list-style-type: none; /*margin-top: 3px;     /*asdf*/
+    position: relative;
+    margin: 1px 0px 1px 0px;
+}
+div.sideNav ul.sidenav a.btnToggle
+{
+    display: block;
+	background-image: url('http://bus.wisc.edu/_images/template/global/closed-arrow.png');
+	background-repeat: no-repeat;
+	background-position: 0 8px;
+	cursor: pointer;
+	height: 20px;
+	left: -13px;
+	position: absolute;
+	top: 0;
+	width: 7px;
+}
+
+div.sideNav ul.sidenav li a.btnToggle2
+{
+    background-image: url('http://bus.wisc.edu/_images/template/global/open-arrow.png') !important;
+}
+
+div.sideNav ul.sidenav li.active-top ul{
+	display:block;
+}
+div.sideNav ul.sidenav li.active-top ul li.active-bottom a, div.sideNav ul.sidenav li.active a{
+	background-color:#9F998F;
+	color:#fff;
+}
+
+.indexContentTable
+{
+	margin-top: 60px;
+}
+
+.tdSpacer
+{
+	width: 60px;
+}
+
+.bookCover
+{
+	border: 5px double #C20430;
+}
+
+.welcome
+{
+	font-size: 18px;
+}
+
+.homePageText
+{
+	font-size: 16px;
+}
+
+table.chapterTable
+{
+	font-family: Tahoma, Geneva, sans-serif;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.chapterTableHeaderRow
+{
+	background-color: #8A2432;
+	color: white;
+	font-size: 14px;
+	height: 15px;
+}
+table.chapterTable tr td{
+	padding:5px;
+	min-width:120px;
+}
+
+ul{margin-top:2px;}
+
+table .chapterTable td p
+{
+	margin: 0;
+	padding:0;
+}
+
+.tableCellSeperator
+{
+	border-right: 1px solid black;
+}
+
+table.chapterTable tr.alternateRow
+{
+	background-color: #E3E3E3;
+}
+
+li { padding: 2px 0px; }
